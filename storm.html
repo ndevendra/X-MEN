@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{
+		background-image : url(../images/back.gif);
+		background-size: cover;
+		margin-right: 100px;
+	}
+	
+	p{
+		color: #ffffff;
+		padding: 10px;
+		-webkit-animation-name:zoomInUp;
+		-webkit-animation-duration: 2s;
+	}
+	#desc{
+		border:1px #ffffff solid;
+		width: 200px;
+		height: 500px;
+		float: right;
+		box-shadow: 5px 5px grey;
+	}
+	h1{
+		color: #ffffff;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 60px;
+		font-style: italic;
+		text-shadow:2px 2px grey;
+		-webkit-animation-name: flash;
+		-webkit-animation-duration: 3s;
+		animation-iteration-count:infinite;
+	}
+	
+	img{
+		padding: 5px;
+		-webkit-animation-name:flash;
+		-webkit-animation-duration: 1s;
+	}
+	@-webkit-keyframes flash {
+		0%, 50%, 100% {
+			opacity: 1;
+		}
+
+		25%, 75% {
+			opacity: 0;
+		}
+	}
+	
+	@-webkit-keyframes slideIn {
+		0% {
+			-webkit-transform: translate3d(100%, 0, 0);
+			visibility: visible;
+		}
+
+		100% {
+			-webkit-transform: translate3d(0, 0, 0);
+		}
+	}
+
+	@-webkit-keyframes zoomInUp {
+		0% {
+			opacity: 0;
+			-webkit-transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
+			-webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+		}
+
+		60% {
+			opacity: 1;
+			-webkit-transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+			-webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+		}
+	}
+
+</style>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>STORM</h1>
+		</header>
+		<div id="desc">
+			<img id="fg" src="../images/Xmen013.png">
+			<p> REAL NAME :
+				<br />
+				<br />
+				ALIAS :
+				<br />
+				<br />
+				FROM :
+			</p>	
+		</div>
+		<div id"about">
+			
+		</div>
+	</div>
+</body>
+</html>

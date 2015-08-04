@@ -1,0 +1,32 @@
+h1{ color: white;}
+p{ color: yellow;}
+
+img{ 
+	clear: right;
+  height: 520px;
+  width: 369px;
+  margin-top: -47px;
+  margin-bottom: 13px;
+  margin-right: -1px;
+    /*border-style: solid;*/
+	}
+
+	dd {
+ 		margin-left: 1px;
+    color:pink;
+ 	}
+
+  #aa{
+
+  	background-color:black;
+  	color: white;
+  	/*border-color: black;*/
+    float:right;
+   /* border-style: solid;*/
+    background-color: transparent;
+  }
+ul
+{
+  text-decoration: glow;
+}
+	

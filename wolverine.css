@@ -23,7 +23,7 @@ div{
 	/*background-color: grey;*/
 	border-radius: 10px;
 	display: inline-block;
-	float: right;
+	float: left;
 	animation-name: slideIn;
 	animation-duration: 5s;
 	
@@ -47,7 +47,7 @@ p{
 }
 .char{
 	text-align: justify;
-	padding-right: 550px;
+	/*padding-right: 550px;*/
 	/*padding-top: 250px;*/
 	/*padding-left: 250px;*/
 }
@@ -68,6 +68,6 @@ p{
 
 
 
-	/*section{
-		width: 250px;
-	}*/
+	section{
+		padding-left: 550px;
+	}

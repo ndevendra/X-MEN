@@ -1,0 +1,73 @@
+
+
+		body{
+	background-image: url(wolf1.png);
+	background-size: cover;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+h1{
+	text-align: center;
+	color: #e3e3e3;
+	
+}
+h2{
+	color:white;
+}
+div{
+	width: 230px;
+	height: 750px;
+	border: 2px solid white;
+	box-shadow: 5px 5px 5px grey;
+	/*background-color: grey;*/
+	border-radius: 10px;
+	display: inline-block;
+	float: right;
+	animation-name: slideIn;
+	animation-duration: 5s;
+	
+}
+img{
+	width: 250px; 
+	padding-left: 13px;
+	padding-top: 3px;
+	/*height: 250px;*/
+}
+.a1{
+	float: right;
+	padding-right: 50px;
+	margin-right: 80px;
+	color: white;
+	width: 800px;
+	text-align: left;
+}
+p{
+	color: white;
+}
+.char{
+	text-align: justify;
+	padding-right: 550px;
+	/*padding-top: 250px;*/
+	/*padding-left: 250px;*/
+}
+
+	@keyframes slideIn {
+			0% {
+				transform: translate3d(0, -100%, 0);
+
+				visibility: visible;
+			}
+
+			50% {
+				transform: translate3d(0, 0, 0);
+				
+				}
+			}
+    
+
+
+
+	/*section{
+		width: 250px;
+	}*/
